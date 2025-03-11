@@ -9,7 +9,7 @@ aws = {
 }
 
 provider "aws" {
-  region = "ap-southeast-2"
+  region = "ap-southeast-1"
 }
 
 resource "aws_instance" "app_server" {
@@ -17,6 +17,6 @@ resource "aws_instance" "app_server" {
   instance_type = "t2.micro"
 
   tags = {
-    Name = "arjun"
+    Name = "antrix5"
   }
 }
